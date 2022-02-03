@@ -1,0 +1,474 @@
+                                        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+                                        body {
+                                            font-family: 'Montserrat', sans-serif;
+                                            font-size: 30px;
+                                            color: black;
+                                            background-color: #bbdde7;
+                                            background-color: #CBE3EF;
+                                        }
+                                        
+                                        *,
+                                        *:before,
+                                        *:after {
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        a {
+                                            margin: 0;
+                                            font-style: normal;
+                                            font-weight: bold;
+                                            font-size: 40px;
+                                            line-height: 49px;
+                                            text-align: center;
+                                            color: #000000;
+                                            position: absolute;
+                                            width: 111px;
+                                            height: 42px;
+                                            left: 63px;
+                                            top: 15px;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        a:active {
+                                            transform: scale(1.04);
+                                        }
+                                        
+                                        .zagolovok {
+                                            width: 325px;
+                                            height: 75px;
+                                            margin: 0 auto;
+                                            top: 140px;
+                                            border-radius: 28px;
+                                            background-color: #fff;
+                                            position: relative;
+                                        }
+                                        
+                                        .MM {
+                                            margin: 0;
+                                            position: absolute;
+                                            left: 230px;
+                                            top: 12px;
+                                            width: 52px;
+                                            height: 52px;
+                                            filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.60));
+                                            z-index: -2;
+                                        }
+                                        
+                                        img:active {
+                                            transform: scale(1.05);
+                                        }
+                                        
+                                        .Zadnik {
+                                            background-color: #bbdde7;
+                                            height: 2340px;
+                                            width: 100%;
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            position: relative;
+                                            top: -40px;
+                                        }
+                                        
+                                        .Osnova {
+                                            margin-top: -2100px;
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            width: 820px;
+                                            height: 2360px;
+                                            border-radius: 75px;
+                                            background-color: #fff;
+                                            position: relative;
+                                        }
+                                        
+                                        .Shapca {
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            width: 820px;
+                                            height: 75px;
+                                            position: relative;
+                                            background-color: #2CA9E8;
+                                            border-radius: 75px 75px 0px 0px;
+                                        }
+                                        
+                                        .Menu .Shapca {
+                                            width: inherit;
+                                            height: 75px;
+                                            position: relative;
+                                        }
+                                        
+                                        .Menu {
+                                            list-style-type: none;
+                                            height: 75px;
+                                            padding-inline-start: 0px;
+                                        }
+                                        
+                                        .Menu li a {
+                                            color: white;
+                                            padding: 10px;
+                                            width: 140px;
+                                            height: 30px;
+                                            top: 0px;
+                                            left: 0px;
+                                            display: flex;
+                                            font-size: 30px;
+                                            font-weight: 600;
+                                            transition: all 0.1s ease-in-out;
+                                        }
+                                        
+                                        .Menu li a:hover {
+                                            color: #000000;
+                                        }
+                                        
+                                        .A {
+                                            position: absolute;
+                                            margin-left: 70px;
+                                        }
+                                        
+                                        .B {
+                                            margin-left: 340px;
+                                        }
+                                        
+                                        .C {
+                                            margin-left: 610px;
+                                        }
+                                        
+                                        .Pop {
+                                            width: 670px;
+                                            height: 300px;
+                                            position: relative;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .Pop h1 {
+                                            font-size: 30px;
+                                            font-weight: bold;
+                                            margin-left: 60px;
+                                            margin-top: 40px;
+                                        }
+                                        
+                                        .Pop h2 {
+                                            font-size: 20px;
+                                            font-weight: lighter;
+                                            text-align: center;
+                                            font-size: 20px;
+                                            margin-right: 310px;
+                                        }
+                                        
+                                        .AA {
+                                            margin: 0;
+                                            position: absolute;
+                                            width: 230px;
+                                            height: 300px;
+                                            left: 460px;
+                                            top: -50px;
+                                        }
+                                        
+                                        .Text {
+                                            background-color: #2CA9E8;
+                                            width: 820px;
+                                            height: 340px;
+                                            position: relative;
+                                            margin: 0 auto;
+                                            top: -30px;
+                                        }
+                                        
+                                        h3 {
+                                            margin: 0;
+                                            text-align: center;
+                                            color: #fff;
+                                            font-size: 30px;
+                                            font-weight: 400;
+                                            position: absolute;
+                                            width: 580px;
+                                            height: 220px;
+                                            left: 110px;
+                                            top: 70px;
+                                        }
+                                        
+                                        .oKo {
+                                            position: relative;
+                                            margin: 0 auto;
+                                            width: 715px;
+                                            height: 415px;
+                                            margin: 20px 56px;
+                                        }
+                                        
+                                        .oKo .tyty {
+                                            left: 50px;
+                                        }
+                                        
+                                        .kol {
+                                            margin: 0;
+                                            text-align: center;
+                                            position: absolute;
+                                            left: 200px;
+                                            font-weight: bold;
+                                            font-size: 30px;
+                                        }
+                                        
+                                        .oKoMax {
+                                            position: relative;
+                                            width: 208px;
+                                            height: 306px;
+                                            top: 109px;
+                                            border-radius: 28px;
+                                            background-color: #fff;
+                                            filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.60));
+                                            transition-duration: 0.3s;
+                                        }
+                                        
+                                        .oKoMax:hover {
+                                            transform: scale(1.06);
+                                        }
+                                        
+                                        .oKoKs {
+                                            position: relative;
+                                            left: 254px;
+                                            top: -197px;
+                                            width: 208px;
+                                            height: 306px;
+                                            border-radius: 28px;
+                                            background-color: #fff;
+                                            filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.60));
+                                            transition-duration: 0.3s;
+                                        }
+                                        
+                                        .oKoKs:hover {
+                                            transform: scale(1.06);
+                                        }
+                                        
+                                        .oKoMini {
+                                            position: relative;
+                                            left: 508px;
+                                            top: -503px;
+                                            width: 208px;
+                                            height: 306px;
+                                            border-radius: 28px;
+                                            background-color: #fff;
+                                            filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.60));
+                                            transition-duration: 0.3s;
+                                        }
+                                        
+                                        .oKoMini:hover {
+                                            transform: scale(1.06);
+                                        }
+                                        
+                                        .Max {
+                                            width: 135px;
+                                            height: 118px;
+                                            margin: 0;
+                                            position: absolute;
+                                            left: 38px;
+                                            top: 25px;
+                                            transition-duration: 0.3s;
+                                        }
+                                        
+                                        .Max:hover {
+                                            transform: scale(1.06);
+                                        }
+                                        
+                                        .Max2 {
+                                            width: 86px;
+                                            height: 75px;
+                                            margin: 0;
+                                            position: absolute;
+                                            left: 61px;
+                                            top: 49px;
+                                        }
+                                        
+                                        .Max3 {
+                                            width: 50px;
+                                            height: 44px;
+                                            margin: 0;
+                                            position: absolute;
+                                            left: 79px;
+                                            top: 63px;
+                                        }
+                                        
+                                        .Rol {
+                                            width: 100%;
+                                            position: absolute;
+                                            top: 173px;
+                                            font-weight: bold;
+                                            font-size: 20px;
+                                            text-align: center;
+                                        }
+                                        
+                                        .tyty {
+                                            position: absolute;
+                                            font-weight: lighter;
+                                            font-size: 15px;
+                                            left: 32px;
+                                            top: 252px;
+                                            background-color: #111;
+                                            color: #fff;
+                                            border-radius: 60px;
+                                            padding: 0px 15px;
+                                            transition-duration: 0.3s;
+                                            margin: 0;
+                                            line-height: 30px;
+                                            height: 30px;
+                                        }
+                                        
+                                        .купить:hover {
+                                            transform: scale(1.7);
+                                        }
+                                        
+                                        .Prise {
+                                            width: 100%;
+                                            position: absolute;
+                                            top: 200px;
+                                            font-weight: lighter;
+                                            font-size: 20px;
+                                            text-align: center;
+                                        }
+                                        
+                                        .oko1 {
+                                            width: 820px;
+                                            height: 340px;
+                                            background-color: #f5f5f5;
+                                            border-radius: 25px;
+                                            padding: 25px;
+                                        }
+                                        
+                                        .oko1 .Xyu {
+                                            position: relative;
+                                            top: -215px;
+                                            left: 270px;
+                                        }
+                                        
+                                        .oko1 .Max {
+                                            position: relative;
+                                            left: 74px;
+                                            top: 40px;
+                                        }
+                                        
+                                        .oko1 .Rol {
+                                            position: relative;
+                                            left: 95px;
+                                            text-align: start;
+                                            top: 70px;
+                                        }
+                                        
+                                        .oko1 .Prise {
+                                            position: relative;
+                                            left: 109px;
+                                            text-align: start;
+                                            top: 70px;
+                                        }
+                                        
+                                        .Xyu {
+                                            position: relative;
+                                            width: 504px;
+                                            height: 306px;
+                                            left: 316px;
+                                            background-color: #2CA9E8;
+                                            top: -122px;
+                                            border-radius: 25px;
+                                        }
+                                        
+                                        .Xyu h2 {
+                                            position: relative;
+                                            font-style: Bold;
+                                            font-size: 25px;
+                                            line-height: 44px;
+                                            line-height: 100%;
+                                            text-align: Left Vertical;
+                                            text-align: Top;
+                                            margin: 30px;
+                                            top: 40px;
+                                            color: #fff;
+                                        }
+                                        
+                                        .Xyu .tyty {
+                                            font-size: 20px;
+                                            padding: 5px 18px;
+                                            height: 40px;
+                                            top: 230px;
+                                            border-radius: 15px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .Xyu .tyty:hover {
+                                            transform: scale(1.06);
+                                        }
+                                        
+                                        .oko2 {
+                                            width: 820px;
+                                            height: 340px;
+                                            background-color: #f5f5f5;
+                                            border-radius: 25px;
+                                            padding: 25px;
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        .oko2 .Xyu {
+                                            top: -170px;
+                                            left: 0px;
+                                        }
+                                        
+                                        .oko2 .Max2 {
+                                            position: relative;
+                                            left: 600px;
+                                            top: 60px;
+                                        }
+                                        
+                                        .oko2 .Rol {
+                                            position: relative;
+                                            left: 622px;
+                                            text-align: start;
+                                            top: 110px;
+                                        }
+                                        
+                                        .oko2 .Prise {
+                                            position: relative;
+                                            left: 610px;
+                                            text-align: start;
+                                            top: 110px;
+                                        }
+                                        
+                                        .oko3 .oko1 {
+                                            position: relative;
+                                            top: 40px;
+                                        }
+                                        
+                                        .oko3 .oko1 .Max3 {
+                                            position: relative;
+                                            left: 100px;
+                                            top: 60px;
+                                        }
+                                        
+                                        .oko3 .oko1 .Rol {
+                                            left: 77px;
+                                            top: 140px;
+                                        }
+                                        
+                                        .oko3 .oko1 .Prise {
+                                            left: 92px;
+                                            top: 140px;
+                                        }
+                                        
+                                        .oko3 .Xyu {
+                                            top: -140px;
+                                        }
+                                        
+                                        .Popka {
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            width: 820px;
+                                            height: 75px;
+                                            position: relative;
+                                            background-color: #2CA9E8;
+                                            border-radius: 0px 0px 75px 75px;
+                                            top: 31px;
+                                        }
+                                        
+                                        h4 {
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            text-align: center;
+                                            color: #fff;
+                                            font-size: 10px;
+                                            font-weight: 200;
+                                            position: relative;
+                                            top: 32px;
+                                        }
